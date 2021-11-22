@@ -1,0 +1,164 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+button {
+  font-family: Roboto;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 0 15px;
+}
+
+.header {
+  font-size: 48px;
+  line-height: 54px;
+  text-align: center;
+  line-height: 100px;
+  padding: 20px;
+}
+
+.expert {
+  padding: 50px 0;
+  margin: 0 7%;
+  background: #efefef;
+}
+
+.section__title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 50;
+  margin-bottom: 100px;
+}
+
+.expert__form {
+  max-width: 691px;
+  min-height: 141px;
+  margin: 0 auto;
+}
+
+.expert__form-input {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 24px;
+  width: 360px;
+  height: 50px;
+}
+
+.expert__form-btn {
+  text-align: center;
+  width: 320px;
+  height: 60px;
+  background: #c4c4c4;
+}
+
+.form-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.matrix-section {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.matrix__title {
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 100px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px auto;
+  justify-content: center;
+  margin-left: -200px;
+}
+
+ul.rowsNames li {
+  min-height: 80px;
+  min-width: 80px;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: end;
+}
+
+ul.collumnsNames li {
+  display: inline-block;
+  transform: rotate(-60deg);
+  height: 80px;
+  width: 80px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#table {
+  border: 1px solid black;
+}
+
+.btnCell {
+  min-height: 80px;
+  min-width: 80px;
+}
+
+.user {
+  padding: 50px 0;
+  margin: 100px 7%;
+  background: #efefef;
+}
+
+.question-block {
+  width: 402px;
+  height: 115px;
+  margin: 0 auto;
+}
+
+.question {
+  text-align: center;
+}
+
+.question-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.question-btn {
+  width: 168px;
+  height: 60px;
+  text-align: center;
+}
+
+.yes {
+  background: #c6e4be;
+}
+
+.no {
+  background: #f2a1a1;
+}
+
+.answer {
+  margin-top: 80px;
+  text-align: center;
+}

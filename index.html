@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">Экспертная система</div>
+  </header>
+  <section class="expert">
+    <div class="container">
+      <div class="section__title">Эксперт</div>
+      <form class="expert__form" action="">
+        <input id="inputStr" class="expert__form-input" type="text" placeholder="характеристика или объект"
+          autocomplete="off">
+
+        <div class="form-btns">
+          <button id="addCharacteristicBtn" class="expert__form-btn" type="button">Добавить характеристику</button>
+          <button id="addObjectBtn" class="expert__form-btn" type="button">Добавить объект</button>
+        </div>
+      </form>
+
+      <div class="matrix-section">
+        <div class="matrix__title">Исходная матрица значений:</div>
+
+        <div class="wrapper">
+          <div></div>
+          <div>
+            <ul id="objectsNames" class="collumnsNames"></ul>
+          </div>
+          <div>
+            <ul id="characteristicsNames" class="rowsNames"></ul>
+          </div>
+          <div>
+            <table id="table"></table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="user">
+    <div class="container">
+      <div class="section__title">Пользователь</div>
+
+      <div class="question-block">
+        <div id="question" class="question">вопрос</div>
+        <div class="question-btns">
+          <button id="btnYes" class="question-btn yes" disabled>да</button>
+          <button id="btnNo" class="question-btn no" disabled>нет</button>
+        </div>
+      </div>
+
+      <div id="answer" class="answer">тут будет ответ</div>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
